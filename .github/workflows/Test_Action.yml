@@ -26,3 +26,11 @@ jobs:
         run: | 
           java -version
           javac -version
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin' # See 'Supported distributions' for available options
+          java-version: '21'
+      - name: check Java Version
+        run: | 
+          java -version
+          javac -version
