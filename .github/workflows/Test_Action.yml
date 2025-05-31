@@ -22,3 +22,7 @@ jobs:
       - name: Show Me Storage
         run: df -h
       - run: echo "Welcome Pratik"
+      - name: check Java Version
+        run: | 
+          java -version
+          javac -version
